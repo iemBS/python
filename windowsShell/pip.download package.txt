@@ -1,0 +1,8 @@
+Download Package
+Preconditions:
+  - Navigate to Python script directory in command prompt
+  - Need package name
+      using "camelcase" here
+Main Success Scenario:
+  1. Run "pip install camelcase" in command prompt
+  2. Package is installed automatically. 
