@@ -1,0 +1,5 @@
+
+  pip install -U pip
+  
+  
+# more can be read at https://pip.pypa.io/en/stable/installing/
