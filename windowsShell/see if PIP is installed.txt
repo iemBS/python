@@ -1,0 +1,12 @@
+See if PIP is installed
+Main Success Scenario:
+  1. navigate to the Python script directory.
+  2. Run "pip --version" on command prompt
+  3. Version number returned. 
+  4. Using Windows OS
+Alternatives:
+  3a. PIP not installed or cannot access from directory
+    3a1. see below message:
+        'pip' is not recognized as an internal or external command,
+        operable program or batch file.
+  
