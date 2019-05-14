@@ -1,0 +1,21 @@
+Split String
+Preconditions
+  - default seperator is a blank
+  - assume txt is a variable 
+  - assume txt is set to "welcome to the jungle"
+Main Success Scenario: 
+  1. Specify text 
+        txt = "welcome to the jungle"
+  2. Run split method
+        txt.split()
+  3. Get a list type object
+       ['welcome', 'to', 'the', 'jungle'] 
+  4. See result
+       print(txt)
+Alternatives:
+  2a. Run split with "j" seperator
+        txt.split("j")
+    2a1. get a list type object
+           ["welcome to the ","ungle"]
+
+
