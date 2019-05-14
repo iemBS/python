@@ -1,0 +1,8 @@
+# method
+- Python method is called on an object
+- Since we call a method on an object, it can access the data within it. A method may alter an object's state.
+- Methods are associated to a class and a class instance (aka object). 
+
+# function
+- Python function usually only operates on an object, and then prints something or returns a value.
+- Functions are not associated to a class or class instance (aka object). 
