@@ -1,0 +1,8 @@
+Install PIP
+Main Success Scenario:
+  1. Run "curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py" in command prompt
+  2. Run "python get-pip.py" in command prompt. 
+  
+  
+  
+  # more can be read at https://pip.pypa.io/en/stable/installing/
