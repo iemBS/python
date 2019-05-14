@@ -13,8 +13,10 @@
 
 # Attribute
 - A property is just a specific type of attribute. 
-- Can be an attribute of a module or a function. 
-- All functions have the __doc__ built-in attribute. This attribute returns the returns the doc string defined in the function source code. 
+- Can be an attribute of a module, function, or variable. 
+- All functions have the __doc__ built-in attribute. This attribute returns the returns the doc string defined in the function source code.
+. The value of an attribute is specified when it is created, unless it is a zero-length attribute.  
+- An attribute cannot have attributes.
 
 # Variable
 - A variable is created the moment you first assign a value to it.
@@ -26,7 +28,8 @@
 - A variable name cannot start with a number
 - A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variable names are case-sensitive (age, Age and AGE are three different variables)
-
+- Variables are created with a name, type, and shape before they are assigned data values. So, a variable may exist with no values. 
+- A variable may have attributes.
 
 
 
