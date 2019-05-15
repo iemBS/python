@@ -1,0 +1,1 @@
+# use the API here to check the site security: https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md
