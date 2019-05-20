@@ -1,0 +1,9 @@
+Raise A to the Bth power
+Preconditions: 
+  - A is a number
+  - B is a number
+Main Success Scenario: 
+  1. A ** B
+Alternatives:
+  1a. use long hand notation
+    1a1. pow(A,B)
