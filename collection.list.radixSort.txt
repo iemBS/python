@@ -1,1 +1,51 @@
-placeholder
+# guidance from https://en.wikipedia.org/wiki/Radix_sort
+# This code sorts numbers in array/list by 1s place, then 10s place, then 100s place. Each successive sort builds on the previous. 
+
+from math import log10
+from random import randint
+
+def get_digit(number, base, pos):
+  # "//" is floor division, "%" is remainder/modulus, ** makes pos a power
+  return (number // (base ** pos)) % base
+
+def prefix_sum(array):
+  for i in range(1, len(array)):
+    array[i] = array[i] + array[i-1] # sum of curr & prev item goes into curr item
+  return array
+
+# default base to 10
+# "l" is a 1 x 100 array/list
+def radixsort(l, base=10):
+  # for log10(x), see https://en.wikipedia.org/wiki/Logarithm#/media/File:Logarithm_plots.png
+  # max(l) is the max value in the "l" list/array
+  # log10(x) values are 1 or just above 1 where 10 <= x <= 100
+  # "int" gets the floor of the float
+  passes = int(log10(max(l))+1)  
+  output = [0] * len(l) # creates an array/list as long as "l" array/list
+
+  # go through a range from 0 to "passes"
+  # Since "l" is length 100 here, then "passes" will be 0, 1, or 2 here
+  for pos in range(passes):
+    count = [0] * base # recreate "count" array/list for each pos in range, array/list as long as "base" value
+
+    # get value of "i" from "l" array/list
+    for i in l:
+      digit = get_digit(i, base, pos)
+      count[digit] +=1
+
+    count = prefix_sum(count)  # sum of curr & prev item goes into curr item of "count" array/list
+
+    for i in reversed(l):
+      digit = get_digit(i, base, pos)
+      count[digit] -= 1
+      new_pos = count[digit]
+      output[new_pos] = i
+
+    l = list(output)
+  return output
+
+# "l" is a 1 x 100 list/array where "x in range(100)" defines the index and the value in each element is defined by the "randint(1, 99999)" function
+# "l" is defined by a list comprehension
+l = [ randint(1, 99999) for x in range(100) ]  # randint(a,b) returns a random integer N such that a <= N <= b.
+sorted = radixsort(l)
+print sorted
