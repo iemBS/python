@@ -1,0 +1,7 @@
+Create List with One Element
+Main Success Scenario:
+  1. Create array with one element and element value is zero. 
+       [0]
+Alternatives:
+  1a. Create array with one element and element value is 12. 
+        [12]
