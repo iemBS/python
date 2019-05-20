@@ -9,6 +9,7 @@ def get_digit(number, base, pos):
   return (number // (base ** pos)) % base
 
 def prefix_sum(array):
+  # loop through all items in array/list "array" from 0 to last item in array
   for i in range(1, len(array)):
     array[i] = array[i] + array[i-1] # sum of curr & prev item goes into curr item
   return array
@@ -17,24 +18,28 @@ def prefix_sum(array):
 # "l" is a 1 x 100 array/list
 def radixsort(l, base=10):
   # for log10(x), see https://en.wikipedia.org/wiki/Logarithm#/media/File:Logarithm_plots.png
-  # max(l) is the max value in the "l" list/array
-  # log10(x) values are 1 or just above 1 where 10 <= x <= 100
+  # max(l) is the max value in the "l" list/array, the max possible here is 99,999
+  # Log10[99,999] is almost 5, Log10(x) values are 1 or just above 1 where 10 <= x <= 100
   # "int" gets the floor of the float
-  passes = int(log10(max(l))+1)  
-  output = [0] * len(l) # creates an array/list as long as "l" array/list
+  passes = int(log10(max(l))+1) # will be 5 here
+  output = [0] * len(l) # creates an array/list as long as "l" array/list that has values of zero in all items
 
-  # go through a range from 0 to "passes"
-  # Since "l" is length 100 here, then "passes" will be 0, 1, or 2 here
+  # go through a range from 0 to "passes", "passes" is 5 here (equals # of digits of 99,999 here)
+  # pos is 1s, 10s, 100s, etc
   for pos in range(passes):
-    count = [0] * base # recreate "count" array/list for each pos in range, array/list as long as "base" value
+    # recreate "count" array/list for each pos in range, array/list length equals "base" value (here it is 10)
+    # "count" is setup to handle any value from 1 to 99,999 in its 100 items (0 to 99 indices)
+    count = [0] * base 
 
-    # get value of "i" from "l" array/list
+    # get value of "i" from "l" array/list from the lo pos to the hi pos
+    # looping through all numbers in "l" that need to be sorted
     for i in l:
-      digit = get_digit(i, base, pos)
-      count[digit] +=1
+      digit = get_digit(i, base, pos) # get "pos"th digit for number "i" 
+      count[digit] +=1  # count instances of of number "digit" occurring for the "pos" digit for all "i"s/numbers in "l"
 
     count = prefix_sum(count)  # sum of curr & prev item goes into curr item of "count" array/list
 
+    # get value of "i" from "l" array/list from the hi pos to the lo pos
     for i in reversed(l):
       digit = get_digit(i, base, pos)
       count[digit] -= 1
