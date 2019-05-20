@@ -1,0 +1,12 @@
+Replace Determinate For Loop and List/Array fill with shorhand notation
+
+bar = []
+for item in some_iterable:
+    bar.append(SOME EXPRESSION)
+    
+    
+to
+
+
+bar = [SOME EXPRESSION for item in some_iterable]
+    
