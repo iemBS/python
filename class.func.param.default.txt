@@ -1,0 +1,10 @@
+Specify Default Parameter
+Preconditions: 
+  - Assume function named "cheese"
+  - Assume parameter named "base"
+  - Assume "count" is returned from function
+Main Success Scenario:
+  1. Default parameter to 10 
+      def cheese(base=10):
+        count = 2 * base
+        return count
