@@ -1,0 +1,5 @@
+See Number of threads Used in Python
+Note: 
+  - Guidance from https://docs.python.org/3/library/threading.html
+Main Success Scenario: 
+  1. Use active_count() function in "threading" library
