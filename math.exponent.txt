@@ -1,4 +1,6 @@
 Raise A to the Bth power
+Note: 
+  - Guidance from https://docs.python.org/2/library/operator.html
 Preconditions: 
   - A is a number
   - B is a number
