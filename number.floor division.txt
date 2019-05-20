@@ -1,0 +1,4 @@
+
+
+5 // 2 # equals 2, is int, is quotient, removes remainder
+5 / 2 # equals 2.5, if float
