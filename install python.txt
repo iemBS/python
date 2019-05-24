@@ -1,0 +1,29 @@
+Install Python
+Note
+  - Guidance from https://www.python.org/downloads/
+Preconditions:
+  - Downloading Python 3
+  - Using 64 bit OS
+  - zip files download faster
+Main Success Scenario
+  1. Go to website for latest Windows version
+       https://www.python.org/downloads/windows/
+  2. Choose "Windows x86-64 executable installer" file
+  3. download file
+  4. run python executable
+  5. choose default location to install to
+  6. Install complete
+Alternatives:
+  1a. Using Linux OS
+    1a1. Go to website for latest Linux version
+            [need to fill in]
+  2a. [need to fill in]
+  5a. choose custom location to install to
+    5a1. Click "custom installation"
+    5a2. Choose optional features
+    5a3. Click "Next" button
+    5a4. Choose advanced options
+    5a5. Specify custom install location
+  6a. "Disable path length limit" on Windows
+    6a1. This lets you get around the default 260 character MAX_PATH limit
+      
