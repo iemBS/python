@@ -1,0 +1,18 @@
+Choose Quotes for String
+Note:
+  - Guidance from docs.python.org/2.0/ref/strings.html
+  - Guidance from docs.python.org/3/tutorial/introduction.html
+Preconditions:
+  - Both double and single quotes can contain a string
+  - Single quote is not limited to a single character like other languages
+  - "\" escapes characters
+Main Success Scenario: 
+  1. Use double quotes
+Alternatives:
+  1a. String has a double quote and I don't want to escape it
+    1a1. Use single quotes
+  1b. String has a double quote and I want to escape it
+    1b1. Use escape on double quote
+  1c. String has a backslash and I want it to show as a backslash
+    1c1. Use a raw string like:
+       im_raw = r'c:\temp.txt'
