@@ -1,0 +1,8 @@
+Remove Space During File Read
+Note:
+  - Guidance from https://stackoverflow.com/questions/15233340/getting-rid-of-n-when-using-readlines
+Preconditions:
+  - 
+Main Success Scenario:
+  1. [need to fill in]
+  
