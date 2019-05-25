@@ -1,0 +1,26 @@
+Open File
+Note: 
+  - Guidance from https://www.w3schools.com/python/ref_func_open.asp
+  - Guidance from https://docs.python.org/3/library/functions.html#open
+Preconditions:
+  - Python file ends with .py
+  - Default open is expecting to read the file after open
+  - 2nd param of "r" open the file to read
+  - 2nd param of "x","a", or "w" will create the file if it does not exist at the location
+  - Assume file is named "demofile.txt"
+Main Success Scenario: 
+  1. Python flie is in same directory as file to open
+  2. Open file
+       f = open("demofile.txt")
+Alternatives:
+  1a. File is not in the same dir as the Python file
+    1a1. Use absolute or relative path to file in Open function
+  2a. File will be opened to write to
+    2a1. Use "w" for 2nd parameter
+  2b. File will be opened to append to
+    2b1. Use "a" for 2nd parameter
+  2c. File does not exist at location
+    2c1. Use "x" for 2nd param to create the file
+
+  
+ 
