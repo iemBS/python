@@ -12,3 +12,5 @@ Main Success Scenario:
 Alternatives:
   2a. Enable "python" cmd to run from any folder
     2a1. [need to fill]
+  4a. Type name of python program file w or wo "python" command
+    4a1. [need to fill]
