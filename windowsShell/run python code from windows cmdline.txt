@@ -2,7 +2,7 @@ Run Python Code from Windows Cmd Line
 Note:
   - Guidance from https://docs.python.org/3.3/using/windows.html
 Preconditions: 
-  - Note the path the python was installed to
+  - Note the path the python exe was installed to
 Main Success Scenario:
   1. Open command window
   2. Navigate to location of python.exe file
@@ -11,6 +11,10 @@ Main Success Scenario:
        print('I am running python')
 Alternatives:
   2a. Enable "python" cmd to run from any folder
-    2a1. [need to fill]
-  4a. Type name of python program file w or wo "python" command
-    4a1. [need to fill]
+    2a1. search for "environemnt"
+    2a2. choose "Edit the System Environment Variables" app
+    2a3. click "Environment Variables" button
+    2a4. Add something like the below to the User Variables section
+           PYTHONPATH=%PYTHONPATH%;C:\My_python_lib
+  4a. Command line identifies Python file w or wo "python" command
+    4a1. Launcher should have been associated to .py, .pyw, .pyc, .pyo files when python was installed
