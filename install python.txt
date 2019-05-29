@@ -16,8 +16,8 @@ Main Success Scenario
 Alternatives:
   1a. Using Linux OS
     1a1. Go to website for latest Linux version
-            [need to fill in]
-  2a. [need to fill in]
+            [xxx: need to fill in]
+  2a. [xxx: need to fill in]
   5a. choose custom location to install to
     5a1. Click "custom installation"
     5a2. Choose optional features
