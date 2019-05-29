@@ -2,4 +2,4 @@ Use Low Memory Collection
 Note:
   - Guidance from https://docs.python.org/3.4/library/collections.html
 Main Success Scenario:
-  1. [need to fill in]
+  1. [xxx: need to fill in]
