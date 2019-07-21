@@ -1,0 +1,9 @@
+The below was derived from https://stackoverflow.com/questions/9439480/from-import-vs-import
+
+from urllib import request
+# access request directly.
+mine = request()
+
+import urllib.request
+# used as urllib.request
+mine = urllib.request()
