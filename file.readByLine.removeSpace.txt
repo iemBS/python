@@ -4,5 +4,10 @@ Note:
 Preconditions:
   - 
 Main Success Scenario:
-  1. [xxx: need to fill in]
-  
+  1. Use code below 
+
+def remove_newlines(fname):
+    flist = open(fname).readlines()
+    return [s.rstrip('\n') for s in flist]
+
+print(remove_newlines("template.eventArchive.txt"))
