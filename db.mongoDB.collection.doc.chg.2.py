@@ -11,3 +11,4 @@ newvalues = { "$set": { "name": "Minnie" } }
 x = mycol.update_many(myquery, newvalues)
 
 print(x.modified_count, "documents updated.")
+.2
