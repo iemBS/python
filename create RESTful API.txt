@@ -1,0 +1,5 @@
+Create RESTful API
+Notes:
+  -Guidance @ https://www.codementor.io/sagaragarwal94/building-a-basic-restful-api-in-python-58k02xsiq
+Main Success Scenario:
+  1. xxx: need to fill in
