@@ -1,0 +1,36 @@
+Get Weekday Occurence in Month
+Notes:
+  -
+Main Success Scenario:
+  1.
+import datetime
+import calendar
+
+dt = datetime.datetime.now();
+yr = dt.year
+mth = dt.month
+dow = dt.isoweekday()
+maxDy = calendar.monthrange(yr, mth)[1]
+wkDyNm = dt.strftime("%A")[:3]
+suffix = "th"
+suffixDict = {
+	"1":"st",
+	"2":"nd",
+	"3":"rd"
+}
+cntLst = {"1","2","3"}
+
+cnt = 0
+for i in range(1, maxDy):
+  d = datetime.date(yr, mth, i)
+  if d.isoweekday() == dow:
+    cnt += 1
+cnt = 5
+if cnt >= 1 and cnt < 4:
+  suffix = suffixDict[str(cnt)]
+elif cnt > 20 and str(cnt)[-1:] in cntLst:
+  suffix = suffixDict[str(cnt)[-1:]]
+print(suffix)
+
+
+# https://stackoverflow.com/questions/37503616/how-to-get-the-nth-occurrence-of-a-day-of-the-week-for-a-given-month 
