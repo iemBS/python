@@ -1,0 +1,14 @@
+Remove newline char
+Main Success Scenario:
+  1. See code below
+  
+import clipboard
+import console
+
+def getFileContent(fname):
+  data = open(fname).read().replace('\n', '')
+  data = data.replace(' ','') # remove space
+  data = data.replace('\t','') # remove tab
+  return data
+  
+print(getFileContent("template.eventArchive.txt"))
