@@ -1,0 +1,6 @@
+Remove item from list
+Notes:
+  -guidance @ https://stackoverflow.com/questions/1157106/remove-all-occurrences-of-a-value-from-a-list#1157160
+  
+  
+  xxx: fill in
