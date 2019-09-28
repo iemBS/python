@@ -1,0 +1,11 @@
+Reverse a string split
+xxx: clean up
+>>> tmp = "a,b,cde"
+>>> tmp2 = tmp.split(',')
+>>> tmp2.reverse()
+>>> "".join(tmp2)
+'cdeba'
+or simpler:
+>>> tmp = "a,b,cde"
+>>> ''.join(tmp.split(',')[::-1])
+'cdeba'
