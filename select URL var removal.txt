@@ -1,0 +1,33 @@
+Select URL var removal
+Main Success scrnario:
+  1.
+import clipboard
+import console
+
+cb = clipboard.get()
+urlVarsStr = cb.split("?")[1]
+urlVarsLst = urlVarsStr.split("&")
+loop = 1
+for urlVarStr in urlVarsLst:
+  print(str(loop) + ". " + urlVarStr)
+  loop = loop + 1
+
+indexesStr = input("Remove which var? (n n n etc):")
+
+# add logic to check input
+
+indexesLst = indexesStr.split(" ")
+for indexStr in indexesLst:
+  urlVarsLst[int(indexStr) - 1] = ""
+  
+urlVarsLst = (value for value in urlVarsLst if value != "")
+urlVarsStr = ""
+for urlVarStr in urlVarsLst:
+  urlVarsStr = urlVarsStr + "&" + urlVarStr
+
+urlFix = cb.split("?")[0] + "?" + urlVarsStr[1:len(urlVarsStr)]
+
+clipboard.set(urlFix)
+
+print(urlFix)
+
