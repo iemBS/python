@@ -1,0 +1,7 @@
+lstObj = ["a","b","c"]
+
+strLst = '","'.join(lstObj)
+
+strLst = '"' + strLst + '"'
+
+print(strLst)
