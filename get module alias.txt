@@ -1,0 +1,6 @@
+Get module alias
+Main success scenario:
+  1. import a_ridiculously_long_module_name as short_name
+ALTERNATIVES:
+  1a. For a sub module
+    1a1. import module.submodule.subsubmodule as short_name
