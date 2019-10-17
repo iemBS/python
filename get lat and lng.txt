@@ -1,0 +1,25 @@
+Get lat and lng
+Notes:
+  -Mapquest for geocoding is free if less than 15k requests per day.
+Main Success Scenario:
+  1. See code below
+
+
+# get free mapquest dev acct: https://developer.mapquest.com
+
+# mapquest geocode request URL
+#https://developer.mapquest.com/documentation/geocoding-api/address/get/
+
+import json, urllib, urllib3, urllib.request as req
+ 
+address = "901 12th Avenue Seattle, WA 98122"
+encodedAddress = urllib.parse.quote_plus(address)
+StrKey = "5k4B1p2lNojq4EJVjjwh1VKshgveAkh9"
+
+data = req.urlopen("http://www.mapquestapi.com/geocoding/v1/address?location=" + encodedAddress + '&key=' + StrKey + '&maxResults=1&outFormat=JSON').read()
+
+latLng = json.loads(data)['results'][0]['locations'][0]['latLng']
+lat = latLng['lat']
+lng = latLng['lng']
+print(lat)
+print(lng)
