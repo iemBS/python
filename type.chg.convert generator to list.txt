@@ -1,0 +1,6 @@
+Convert Generator to List
+Notes:
+  -Guidance @ https://stackoverflow.com/questions/24130745/convert-generator-object-to-list-for-debugging#24130771
+  -Guidance @ https://www.reddit.com/r/learnpython/comments/d1bh6w/object_of_type_generator_has_no_len_error_and/
+Main Success Scenario:
+  1. list(genObj)
