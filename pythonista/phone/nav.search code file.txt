@@ -1,0 +1,15 @@
+Search Code File
+Note:
+  -Text search is case sensitive
+  -This method needs to be used because a Command/Control key is not available to use the Command + F shortcut to search a code file on a phone
+Main Success Scenario:
+  1.Open .PY file
+  2.Tap twice on file name
+  3.See list of methods/functions in code file and magnifying glass on top left
+  4.Click on method/function name in list and you are at that method/function in the code file
+Alternatives:
+  4a.Search whole text file for specific text
+    4a1.Click maginifying glass on top left
+    4a2.Type text to search for
+    4a3.If an instance of the text exists, the first instance of the text is selected
+    4a4.Use arrows at top right to jump between instances of the text
