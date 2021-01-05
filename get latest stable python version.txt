@@ -1,0 +1,11 @@
+Get Latest Stable Python Version
+Main Success Scenario:
+  1. For windows, go to https://www.python.org/downloads/windows/
+  2. Download
+Alternatives:
+  1a. Get latest stable version for Linux
+    1a1. Go to https://www.python.org/downloads/source/
+    1a2. Go to step 2. 
+  1b. Get latest stable version for Mac OS X
+    1b1. Go to https://www.python.org/downloads/mac-osx/
+    1b2. Go to Step 2.
