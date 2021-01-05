@@ -1,0 +1,17 @@
+See if Python Installed
+Main Success Scenario:
+  1. Access a Windows 10 OS
+  2. Open command prompt
+  3. Type "py" and press enter
+  4. Python version number and other info returned
+Alternatives:
+  1a. Check if installed on a Linux OS
+    1a1. xxx:fill in
+  1b. Check if installed on a Mac OS 10 OS
+    1b1. xxx:fill in
+  4a. Python not installed on Windows 10 OS
+    4a1. See "'py' is not recognized as an internal or external command,
+operable program or batch file." message
+    4a2. Download Python @ https://www.python.org/downloads/windows/
+    4a3. Install Python
+    4a4. Go to step 2.
