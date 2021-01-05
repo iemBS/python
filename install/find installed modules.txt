@@ -1,0 +1,14 @@
+Find Installed Modules
+Note:
+  -Guidance @ https://docs.python.org/3.7/using/windows.html
+Main Success Scenario:
+  1. Access Windows OS computer
+  2. Python installed @ C:\Python\
+  3. Find default modules @ C:\Python\Lib\
+  4. Find third party modules @ C:\Python\Lib\site-packages\.
+Alternatives:
+  1a. Access Linux OS computer
+    1a1. xxx:fill in
+  1b. Access Mac OS X computer
+    1b1. xxx:fill in
+    
