@@ -1,0 +1,11 @@
+Start Python Launcher
+Main Success Scenario:
+  1. Access Windows OS
+  2. Type "py" in a command line prompt and press enter
+  3. See Python version info, other info, and a ">>>" prompt
+Alternatives:
+  1a. Start Python Launch with version 2.7 of Python
+    1a1. Type "py -2.7" on command line and press enter
+    1a2. Go to step 3.
+    
+    
