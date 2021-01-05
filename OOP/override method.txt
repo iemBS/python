@@ -1,0 +1,5 @@
+Override Method
+Note:
+  -Guidance @ https://realpython.com/python3-object-oriented-programming/
+Main Success Scenario:
+  1. xxx:fill in
