@@ -1,0 +1,18 @@
+Test if a Python Program can run
+Main Success Scenario:
+  1. Create an empty file called "hello.py"
+  2. Save the following code in that file
+    #! python
+    import sys
+    sys.stdout.write("hello from Python %s\n" % (sys.version,))
+  3. Open a command prompt and navigate to the folder for that file
+  4. Type the following in the command prompt and press enter
+      py hello.py
+  5. Your version of Python that is installed will be returned to the UI
+Alternatives:
+  2a. Run your Python code as a specific version
+    2a1. Run your code under the Python 3.6 version
+      #! python3.6
+      import sys
+      sys.stdout.write("hello from Python %s\n" % (sys.version,))
+    2a2. Go to step 3.
