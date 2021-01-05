@@ -1,0 +1,6 @@
+Set Local Ref for Imported Class
+Note:
+  -Guidance @ 
+    -https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
+Main Success Scenario:
+  1.xxx:fill in
