@@ -4,7 +4,7 @@ Note:
 Main Success Scenario:
   1. See code below
 
-import webbrowser, os
-webbrowser.open("http:www.google.com")
+    import webbrowser, os
+    webbrowser.open("http:www.google.com")
 
-print("after browser opened")
+    print("after browser opened")
