@@ -1,6 +1,6 @@
 Run Python Code from Windows Cmd Line
 Note:
-  - Guidance from https://docs.python.org/3.3/using/windows.html
+  -Guidance @ https://docs.python.org/3.7/using/windows.html
 Preconditions: 
   - Note the path the python exe was installed to
 Main Success Scenario:
