@@ -1,0 +1,10 @@
+Import Library
+Note:
+  -Guidance @ 
+    -https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
+Main Success Scenario:
+  1. Import module
+    import myModule
+Alternatives:
+  1a. Import class
+    from myModule import myClass
