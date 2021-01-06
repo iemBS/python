@@ -1,5 +1,31 @@
 Call Instance Method
 Note:
-  -Guidance @ https://realpython.com/python3-object-oriented-programming/
+  -Guidance @ 
+    -https://realpython.com/python3-object-oriented-programming/
 Main Success Scenario:
-  1. xxx:fill in
+  1. enter "py" on the cmd line to start the Python launcher
+  2. Define class (leave last line blank so that command line will see it as the end of the class)
+    class Dog:
+        # Class attribute
+        species = "Canis familiaris"
+
+        # instance attributes 
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        # Instance method
+        def description(self):
+            return f"{self.name} is {self.age} years old"
+
+        # Another instance method
+        def speak(self, sound):
+            return f"{self.name} says {sound}"
+  3. Get an instance of the Dog object
+    miles = Dog("Miles", 4)
+  4. Call 1st instance method
+    miles.description()
+  5. See "'Miles is 4 years old'"
+  6. Call 2nd instance method
+    miles.speak("Woof Woof")
+  7. See "'Miles says Woof Woof'"
