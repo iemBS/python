@@ -1,4 +1,4 @@
-Specify Default Parameter
+Set default parameter value in function
 Preconditions: 
   - Assume function named "cheese"
   - Assume parameter named "base"
