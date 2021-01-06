@@ -6,6 +6,7 @@ Note:
     -https://www.python.org/dev/peps/pep-0020/
     -https://realpython.com/python3-object-oriented-programming/
   -The body of the Dog class consists of a single statement: the pass keyword. pass is often used as a placeholder indicating where code will eventually go. It allows you to run this code without Python throwing an error.
+  -Custom objects are mutable by default. An object is mutable if it can be altered dynamically. For example, lists and dictionaries are mutable, but strings and tuples are immutable.
 Main Success Scenario:
   1. Define class and save it in the Dog.py file
       class Dog:
