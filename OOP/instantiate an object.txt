@@ -1,5 +1,18 @@
 Instantiate an Object
 Note:
   -Guidance @ https://realpython.com/python3-object-oriented-programming/
+  -You can instantiate a new object by typing the name of the class, followed by opening and closing parentheses.
+  -Instantiating and object and letting the value go to the screen, will show the memory address.
 Main Success Scenario:
-  1. xxx:fill in
+  1. write "py" on cmd line and hit enter
+  2. see ">>>" prompt
+  3. Create simple class (last line after "pass" is empty and has no indent to indicate end of class and get ">>>" prompt to show again)
+    class Dog:
+      pass
+    
+  4. see ">>>" prompt
+  5. write "Dog()" on cmd line and hit enter
+  6. see "<__main__.Dog object at 0x00000205133701D0>"
+  7. see ">>>" prompt
+  8. write "Dog()" on cmd line and hit enter
+  9. see a different memory address
