@@ -3,5 +3,6 @@ Note:
   -Guidance @ 
     -https://aws.amazon.com/cdk/
     -https://github.com/aws/aws-cdk
+    -https://docs.aws.amazon.com/cdk/latest/guide/reference.html
 Main Success Scenario:
   1. xxx:fill in
