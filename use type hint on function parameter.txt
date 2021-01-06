@@ -1,0 +1,6 @@
+Use Type Hint on Function Parameter
+Note:
+  -Guidance @ 
+    -https://docs.python.org/3/library/typing.html
+Main Success Scenario:
+  1. xxx:fill in
