@@ -1,5 +1,26 @@
 Define Instance Method
 Note:
-  -Guidance @ https://realpython.com/python3-object-oriented-programming/
+  -Guidance @ 
+    -https://realpython.com/python3-object-oriented-programming/
+  -Instance methods are functions that are defined inside a class.
+  -Instance methods can only be called from an instance of that class. 
+  -Just like .__init__(), an instance method’s first parameter is always self.
 Main Success Scenario:
-  1. xxx:fill in
+  1. enter "py" on the cmd line to start the Python launcher
+  2. Define class (leave last line blank so that command line will see it as the end of the class)
+    class Dog:
+        # Class attribute
+        species = "Canis familiaris"
+
+        # instance attributes 
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+
+        # Instance method
+        def description(self):
+            return f"{self.name} is {self.age} years old"
+
+        # Another instance method
+        def speak(self, sound):
+            return f"{self.name} says {sound}"
