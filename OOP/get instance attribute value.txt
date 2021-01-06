@@ -1,5 +1,19 @@
 Get Instance Attribute Value
 Note:
-  -Guidance @ https://realpython.com/python3-object-oriented-programming/
+  -Guidance @ 
+    -https://realpython.com/python3-object-oriented-programming/
 Main Success Scenario:
-  1. xxx:fill in
+  1. Define class
+    class Dog:
+        species = "Canis familiaris"
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+  2. See code below
+    buddy = Dog("Buddy", 9)
+    miles = Dog("Miles", 4)
+  3. Access values in instance attributes
+    buddy.name
+    buddy.age
+    miles.name
+    miles.age
