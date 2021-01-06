@@ -2,9 +2,24 @@ Import Library
 Note:
   -Guidance @ 
     -https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
+    -The below was derived from https://stackoverflow.com/questions/9439480/from-import-vs-import
 Main Success Scenario:
   1. Import module
     import myModule
 Alternatives:
   1a. Import class
-    from myModule import myClass
+    1a1. use "from aModule import aClass" notation
+      from urllib import request
+      # access request directly.
+      mine = request()
+  1a. Import class with different notation
+    1a1. use "import aModule.aClass" notation
+      import urllib.request
+      # used as urllib.request
+      mine = urllib.request()
+
+
+
+
+
+
