@@ -1,5 +1,23 @@
 Define Class Attribute
 Note:
-  -Guidance @ https://realpython.com/python3-object-oriented-programming/
+  -Guidance @ 
+    -https://realpython.com/python3-object-oriented-programming/
+  -Class attributes are attributes that have the same value for all class instances. 
+  -You can define a class attribute by assigning a value to a variable name outside of .__init__().
+  -Class attributes are defined directly beneath the first line of the class name and are indented by four spaces.
+  -Class attributes must always be assigned an initial value. 
+  -When an instance of the class is created, class attributes are automatically created and assigned to their initial values.
+  -Use class attributes to define properties that should have the same value for every class instance. 
+  -Use instance attributes for properties that vary from one instance to another.
+  -
 Main Success Scenario:
-  1. xxx:fill in
+  1. Define a class with a class attrbiute and two instance attributes
+  
+    class Dog:
+        # Class attribute
+        species = "Canis familiaris"
+
+        # Instance attribute 
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
