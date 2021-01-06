@@ -1,3 +1,16 @@
 Define Class
+Note:
+  -More than one class can exist in a .py file
+  -A .py file can have at most one module
 Main Success Scenario:
   1.xxx:fill in
+  2. Choose Name that xxx:fill in
+  3. "Format Class Name"
+Alternatives:
+  xxx:fill in
+  
+Format Class Name
+Note:
+  -Guidance @ https://www.python.org/dev/peps/pep-0008/#package-and-module-names
+Main Success Scenario:
+  1. xxx:fill in
