@@ -1,0 +1,15 @@
+Set Class Attribute
+Main Success Scenario:
+  1. Define class
+    class Dog:
+        species = "Canis familiaris"
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+  2. Save instantiated object in a variable
+    miles = Dog("Miles", 4)
+  3. Change default value of the "species" class attribute
+    miles.species = "Felis silvestris"
+miles.species
+  4. Get new value from the class attribute 
+    miles.species 
