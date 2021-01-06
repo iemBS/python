@@ -3,6 +3,8 @@ Note:
   -Guidance @ 
     -https://en.wikibooks.org/wiki/A_Beginner%27s_Python_Tutorial/Importing_Modules
     -The below was derived from https://stackoverflow.com/questions/9439480/from-import-vs-import
+    -https://docs.python.org/3/library/math.html
+    -https://www.geeksforgeeks.org/import-module-python/
 Main Success Scenario:
   1. Import module
     import myModule
@@ -12,11 +14,29 @@ Alternatives:
       from urllib import request
       # access request directly.
       mine = request()
-  1a. Import class with different notation
-    1a1. use "import aModule.aClass" notation
+  1b. Import class with different notation
+    1b1. use "import aModule.aClass" notation
       import urllib.request
       # used as urllib.request
       mine = urllib.request()
+  1c. Import more than one class from a module
+    1c1. from myModule import myClass1, myClass2
+  1d. Import more than one class from a module and indent them to make them more readable
+    1d1. see code below
+        from myModule import (
+            myClass1,
+            myClass2,
+            myClass3
+        )
+   1e. Import more than one class from a module, indent them to make them more readable, and give them aliases
+     1e1. see code below
+        from myModule import (
+            myClass1 as c1,
+            myClass2 as c2,
+            myClass3 as c3
+        )
+   1f. Import only class attribute 
+     1f1. from math import pi 
 
 
 
