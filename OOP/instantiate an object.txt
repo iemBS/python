@@ -3,6 +3,7 @@ Note:
   -Guidance @ https://realpython.com/python3-object-oriented-programming/
   -You can instantiate a new object by typing the name of the class, followed by opening and closing parentheses.
   -Instantiating and object and letting the value go to the screen, will show the memory address.
+  -When you instantiate a object, Python creates a new instance and passes it to the first parameter of .__init__(). This is the "self" parameter. This essentially removes the self parameter, so you only need to worry about the other parameters.
 Main Success Scenario:
   1. write "py" on cmd line and hit enter
   2. see ">>>" prompt
@@ -16,3 +17,21 @@ Main Success Scenario:
   7. see ">>>" prompt
   8. write "Dog()" on cmd line and hit enter
   9. see a different memory address
+Alternatives:
+  5a. Assign to a value instead of showing memory address to the screen
+    5a1. enter "a = Dog()"
+    5a2. enter "b = Dog()"
+    5a3. Compare two instances of an object
+        enter "a == b"
+    5a4. see "false" becasue the instances have two different memory locations
+  5b. Instantiate object that has two instance attributes 
+    5b1. Enter the following code (last line is totally blank)
+      class Dog:
+          species = "Canis familiaris"
+          def __init__(self, name, age):
+              self.name = name
+              self.age = age
+    5b2. Save instances of the object in variables
+      buddy = Dog("Buddy", 9)
+      miles = Dog("Miles", 4)
+    
