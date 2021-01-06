@@ -2,5 +2,6 @@ Install AWS Python SDK (Boto)
 Note:
   -Guidance @ 
     -https://aws.amazon.com/developers/getting-started/python/
+    -https://aws.amazon.com/sdk-for-python/
 Main Success Scenario:
   1. xxx:fill in
