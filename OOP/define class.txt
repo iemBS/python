@@ -4,15 +4,24 @@ Note:
   -A .py file can have at most one module
   -Guidance @ 
     -https://www.python.org/dev/peps/pep-0020/
+    -https://realpython.com/python3-object-oriented-programming/
+  -The body of the Dog class consists of a single statement: the pass keyword. pass is often used as a placeholder indicating where code will eventually go. It allows you to run this code without Python throwing an error.
 Main Success Scenario:
-  1.xxx:fill in
-  2. Choose Name that xxx:fill in
+  1. Define class and save it in the Dog.py file
+      class Dog:
+          pass
+  2. Choose Name that fits the functionality
   3. "Format Class Name"
-Alternatives:
-  xxx:fill in
+
   
 Format Class Name
 Note:
   -Guidance @ https://www.python.org/dev/peps/pep-0008/#package-and-module-names
 Main Success Scenario:
-  1. xxx:fill in
+  1. Use PascalCase
+Alternatives:
+  1a. The interface is documented and used primarily as a callable
+    1a1. The naming convention for functions may be used instead in cases where .
+  1b. for builtin names
+    1b1. Most builtin names are single words (or two words run together), with the CapWords convention used only for exception names and builtin constants.
+
