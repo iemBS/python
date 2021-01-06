@@ -2,6 +2,8 @@ Define Class
 Note:
   -More than one class can exist in a .py file
   -A .py file can have at most one module
+  -Guidance @ 
+    -https://www.python.org/dev/peps/pep-0020/
 Main Success Scenario:
   1.xxx:fill in
   2. Choose Name that xxx:fill in
