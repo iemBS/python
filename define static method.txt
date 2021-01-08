@@ -1,0 +1,19 @@
+Define Static Method
+Note:
+  -Guidance @ 
+    -https://realpython.com/instance-class-and-static-methods-demystified/
+  -Static method does not use instance attributes or class attributes. 
+  -Static method cannot change object or class state
+Main Success Scenario:
+  1. See code below
+    class MyClass:
+        def method(self):
+            return 'instance method called', self
+
+        @classmethod
+        def classmethod(cls):
+            return 'class method called', cls
+
+        @staticmethod
+        def staticmethod():
+            return 'static method called'
