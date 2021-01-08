@@ -1,0 +1,18 @@
+Get Full Path of Current Working Directory
+Note:
+  -Guidance @ 
+    -https://www.geeksforgeeks.org/get-directory-of-current-python-script/
+Main Success Scenario:
+  1. See code below
+  
+    # importing os module   
+    import os   
+
+    # Get the current working   
+    # directory (CWD)   
+    cwd = os.getcwd()   
+
+    # Print the current working    
+    # directory (CWD)   
+    print("Current working directory:") 
+    print(cwd)   
