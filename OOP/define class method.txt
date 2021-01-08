@@ -1,0 +1,19 @@
+Define Class Method
+Note:
+  -Guidance @ 
+    -https://realpython.com/instance-class-and-static-methods-demystified/
+  -Class method does not use instance attributes, but it can use class attributes. 
+  -Class method cannot change object state, but it can change class state
+Main Success Scenario:
+  1. See code below
+    class MyClass:
+        def method(self):
+            return 'instance method called', self
+
+        @classmethod
+        def classmethod(cls):
+            return 'class method called', cls
+
+        @staticmethod
+        def staticmethod():
+            return 'static method called'
