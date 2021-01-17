@@ -1,0 +1,6 @@
+Get HTTP Headers
+Note:
+  -Guidance @ 
+    -https://www.tutorialspoint.com/python_network_programming/python_http_headers.htm
+Main Success Scenario:
+  1. xxx:fill in
