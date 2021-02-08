@@ -1,0 +1,6 @@
+Set Parameter Default in __init__
+Note
+  -Guidance @ 
+    -https://stackoverflow.com/questions/4841782/python-constructor-and-default-value
+Main Success Scenario:
+  1. xxx:fill in
