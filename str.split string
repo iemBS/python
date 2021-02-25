@@ -7,7 +7,7 @@ Main Success Scenario:
   1. Specify text 
         txt = "welcome to the jungle"
   2. Run split method
-        txt.split()
+        txt.split(' ')
   3. Get a list type object
        ['welcome', 'to', 'the', 'jungle'] 
   4. See result
@@ -17,5 +17,8 @@ Alternatives:
         txt.split("j")
     2a1. get a list type object
            ["welcome to the ","ungle"]
+  3a. Delimiter does not exist in the string
+    3a1. Get a list of size zero
+    3a2. Go to Step 4
 
 
