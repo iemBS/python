@@ -1,0 +1,5 @@
+Order operations in IF condition containing logical OR
+Note:
+  -https://realpython.com/python-or-operator/
+Main Success Scenario:
+  1. xxx:fill in
