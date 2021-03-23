@@ -29,3 +29,11 @@ Main Success Scenario:
   6. Call 2nd instance method
     miles.speak("Woof Woof")
   7. See "'Miles says Woof Woof'"
+Alternatives:
+  4a. Call an instance method that is in the same class as the instance method it is called from
+    4a1. prefix method being called with "self."
+    4a2. Go to step 5
+  4b. Call an instance method from the main method in the same class
+    xxx:fill in
+  4c. Call an instance method that is in a class and the class is in the same module as the call
+    xxx:fill in
