@@ -2,18 +2,28 @@ Define Static Method
 Note:
   -Guidance @ 
     -https://realpython.com/instance-class-and-static-methods-demystified/
+    -https://stackoverflow.com/questions/12718187/calling-class-staticmethod-within-the-class-body
   -Static method does not use instance attributes or class attributes. 
   -Static method cannot change object or class state
+  -class, instance, and static methods compared
+      class MyClass:
+          def method(self):
+              return 'instance method called', self
+
+          @classmethod
+          def classmethod(cls):
+              return 'class method called', cls
+
+          @staticmethod
+          def staticmethod():
+              return 'static method called'
 Main Success Scenario:
-  1. See code below
-    class MyClass:
-        def method(self):
-            return 'instance method called', self
-
-        @classmethod
-        def classmethod(cls):
-            return 'class method called', cls
-
-        @staticmethod
-        def staticmethod():
-            return 'static method called'
+  1. Define module static method
+    xxx:fill in
+  2. Call the static method
+    xxx:fill in
+ Alternatives:
+   1a. Define class static method
+     1a1. xxx:fill in
+     1a2. return to step 2
+     
