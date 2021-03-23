@@ -1,0 +1,10 @@
+Use Main Function
+Note:
+  -https://www.askpython.com/python/python-main-function
+Main Success Scenario:
+  1. xxx:fill in
+Alternatives:
+  1a. Call static function that is in another class in the same file
+    1a1. xxx:fill in
+  1b. Call static function that is in another class that is not in the same file and imported
+    1b1. xxx:fill in
