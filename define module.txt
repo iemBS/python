@@ -1,4 +1,4 @@
-Create Module.
+Define Modul
 Preconditions: 
   - Assume file you create is called "myModule.py"
   - File must have ".py" extension
