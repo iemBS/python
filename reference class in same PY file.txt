@@ -1,4 +1,4 @@
-Call class in same PY file
+Reference class in same PY file
 Note:
   -https://stackoverflow.com/questions/17445420/import-class-in-same-file-in-python
 Main Success Scenario:
