@@ -4,6 +4,7 @@ Note:
     -https://realpython.com/instance-class-and-static-methods-demystified/
   -Class method does not use instance attributes, but it can use class attributes. 
   -Class method cannot change object state, but it can change class state
+  -Explanation of "cls" in class methods @ https://realpython.com/instance-class-and-static-methods-demystified/
 Main Success Scenario:
   1. See code below
     class MyClass:
