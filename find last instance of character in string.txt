@@ -1,0 +1,5 @@
+Find Last Instance of Character in String
+Main Success Scenario:
+  1. See code below
+    s = 'hello'
+    s.rfind('l')
