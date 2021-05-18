@@ -1,0 +1,6 @@
+Use With Statement
+Note:
+  -Guidance @
+    -https://www.python.org/dev/peps/pep-0343/
+Main Success Scenario:
+  1. xxx:fill in
