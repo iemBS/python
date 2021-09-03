@@ -1,4 +1,7 @@
 See Where Python Installed
+Note:
+  -Guidance @ 
+    -https://realpython.com/installing-python/
 Main Success Scenario:
   1. Run the following in a windows shell command window
     where.exe py
