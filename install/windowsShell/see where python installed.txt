@@ -1,0 +1,6 @@
+See Where Python Installed
+Main Success Scenario:
+  1. Run the following in a windows shell command window
+    where.exe py
+  2. See a path to the py.exe file
+    
