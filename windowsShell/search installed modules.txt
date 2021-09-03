@@ -1,0 +1,9 @@
+Search Installed Modules
+Main Successs Scenario:
+  1. "Search Module Names and Summaries"
+  
+Search Module Names and Summaries
+Note:
+  -Replace "mySearchText" with text you want to search for
+Main Successs Scenario:
+  1.help('modules mySearchText')
