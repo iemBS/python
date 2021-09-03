@@ -1,0 +1,9 @@
+See Installed Python Module Names
+Note:
+  -Guidance @ 
+    -https://stackoverflow.com/questions/739993/how-can-i-get-a-list-of-locally-installed-python-modules
+Pre-Condition:
+  -Be in python shell 
+  -Will run this code on the python shell prompt
+Main Success Scenario:
+  1. help('modules')
