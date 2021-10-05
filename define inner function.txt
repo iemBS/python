@@ -1,0 +1,6 @@
+Define Inner Function
+Note:
+  -guidance @ 
+    -https://realpython.com/inner-functions-what-are-they-good-for/
+Main Success Scenario:
+  1. xxx:fill in
