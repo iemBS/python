@@ -1,0 +1,10 @@
+Understand General Object Hierarchy
+Note:
+  -guidance @ 
+    -https://learnpython.com/blog/python-modules-packages-libraries-frameworks/
+
+
+-library/package: Basically a directory of a collection of modules. Can contain other packages.
+  -module: a bunch of related code saved in a file with the extension .py
+-framework: Similar to libraries, Python frameworks are a collection of modules and packages that help programmers to fast track the development process. However, frameworks are usually more complex than libraries. Also, while libraries contain packages that perform specific operations, frameworks contain the basic flow and architecture of the application.
+  
