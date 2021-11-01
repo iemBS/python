@@ -1,0 +1,18 @@
+Define Function
+Note:
+  -guidance @ 
+    -https://www.w3schools.com/python/python_functions.asp
+    -https://stackoverflow.com/questions/19805654/python-try-finally-block-returns
+Main Success Scenario:
+  1. xxx:fill in
+  2. Take no input parameter
+  3. Return no result
+  4. End 
+Alternatives:
+  3a. Return result
+    3a1. xxx:fill in 
+    3a2. Go to step 4
+  3b. Return result from finally block of a try catch
+    3b1. xxx:Fill in 
+    3b. Go to step 4
+  
