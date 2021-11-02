@@ -1,0 +1,7 @@
+Name Class
+Note:
+  -guidance @ 
+    -https://www.python.org/dev/peps/pep-0008/#class-names
+Main Success Scenario:
+  1. Use CapWords format
+  2. xxx:fill in 
