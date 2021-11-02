@@ -3,4 +3,23 @@ Note:
   -guidance @ 
     -https://www.tutorialspoint.com/How-to-use-the-try-finally-clause-to-handle-exception-in-Python
 Main Success Scenario:
-  1. xxx:fill in 
+  1. Have a try final around the whole script
+    try:
+      all my code
+    finally:
+      my required to run code
+  2. End 
+Alternatives:
+  1a. When an except block in a try except statement handles an error
+    1a1. my required to run code
+    1a2. Go to step 2
+  1b. When an except block in a try except statement re-throws an error
+    1b1. Run "my required to run code" in the except block before leaving it (which would exit the currently running code)
+      try:
+        my code
+      except:
+        my required to run code
+        re-throw error 
+    1b2. Go to step 2
+    
+      
