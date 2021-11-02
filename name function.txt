@@ -1,0 +1,8 @@
+Name Function
+Note:
+  -guidance @ 
+    -https://www.python.org/dev/peps/pep-0008/#function-and-variable-names
+Main Success Scenario:
+  1. Lowercase
+  2. use underscores when necessary to improve readability
+  3. End 
