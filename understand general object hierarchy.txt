@@ -2,6 +2,8 @@ Understand General Object Hierarchy
 Note:
   -guidance @ 
     -https://learnpython.com/blog/python-modules-packages-libraries-frameworks/
+    -https://wiki.python.org/moin/UsefulModules
+    -https://learnpython.com/blog/most-popular-python-packages/
 
 
 -library/package: Basically a directory of a collection of modules. Can contain other packages.
