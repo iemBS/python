@@ -1,0 +1,21 @@
+Understand Error Handling Hierarchy
+https://docs.python.org/3/tutorial/errors.html
+https://stackoverflow.com/questions/2052390/manually-raising-throwing-an-exception-in-python
+
+Hierarchy
+-try statement 
+  -try clause
+    -raise statement (w exception class)
+  -except clause (w & wo exception class) (as exception instance)
+    -raise statement (w & wo exception class) (from exception instance or none)
+  -else clause
+  -finally clause
+  
+  
+  Definitions
+  -else: Only executes if the tray clause throws no exception
+  -except: Catches all errors if no exception class is specified. Catches on the error or a child of that when an exception class is specified.
+  -finally: Always executes
+  -raise: Within the try clause, raises a specific type of error. Within an except clasue, raises the same type of error or a new type of error. If the error type is a child type of that except clause it was caught by, the re-raise would be of the original error type. 
+  
+  
