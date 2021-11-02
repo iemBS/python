@@ -1,0 +1,9 @@
+Name Module
+Note:
+  -guidance @ 
+    -https://www.python.org/dev/peps/pep-0008/#package-and-module-names
+Main Success Scenario:
+  1. Short 
+  2. All-lowercase
+  3. Underscores ok if they improve readability
+  4. End 
