@@ -5,6 +5,7 @@ Note:
     -The below was derived from https://stackoverflow.com/questions/9439480/from-import-vs-import
     -https://docs.python.org/3/library/math.html
     -https://www.geeksforgeeks.org/import-module-python/
+    -https://stackoverflow.com/questions/49694063/expose-export-class-instead-of-module-from-python-file
 Main Success Scenario:
   1. Import module
     import myModule
