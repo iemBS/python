@@ -3,16 +3,35 @@ Note:
   -guidance @ 
     -https://www.w3schools.com/python/python_functions.asp
     -https://stackoverflow.com/questions/19805654/python-try-finally-block-returns
+    -https://www.w3schools.com/python/python_functions.asp
 Main Success Scenario:
-  1. xxx:fill in
-  2. Take no input parameter
+  1. Take no input parameter
+  2. Define body
   3. Return no result
-  4. End 
-Alternatives:
-  3a. Return result
-    3a1. xxx:fill in 
-    3a2. Go to step 4
-  3b. Return result from finally block of a try catch
-    3b1. xxx:Fill in 
-    3b. Go to step 4
+  4. do not document function 
+  5. Use no decorator
+  6. End 
+Alternatives: 
+  1a. Take 1 input parameter
+    xxx
+  1b. Set default parameter value
+    xxx
+  1c. Use arbitary parameter
+    xxx
+  1d. Use keyword parameter
+    xxx
+  1e. Use arbitary keyword parameter
+    xxx
+  2a. Define no body
+    xxx
+  2b. Use recursion
+    xxx
+  4a. Return result
+    4a1. xxx:fill in 
+    4a2. Go to step 6
+  4b. Return result from finally block of a try catch
+    4b1. xxx:Fill in 
+    4b. Go to step 6
+  5a. Use a decorator
+    xxx
   
