@@ -1,1 +1,1 @@
-https://pypi.org/project/jose/
+https://github.com/mpdavis/python-jose
