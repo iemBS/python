@@ -1,0 +1,6 @@
+Hint Function Return Value Type
+Note:
+  -guidance @
+    -https://www.python.org/dev/peps/pep-0484/
+Main Success Scenario:
+  1. xxx:fill in 
