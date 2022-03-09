@@ -1,0 +1,6 @@
+Get Procedure Table Result
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/15320265/cannot-return-results-from-stored-procedure-using-python-cursor
+Main Success Scenario:
+  1. xxx:fill in 
