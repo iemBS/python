@@ -1,0 +1,12 @@
+Get Match Object
+Note:
+  -guidance @
+    -https://docs.python.org/3/library/re.html#re.match
+Main Success Scenario:
+  1. See code below
+    import re
+
+    to_check_txt = '"ClarkKent"'
+    re_pattern_txt = '(?i)^"(.+)"$' # Matches any text that is bounded by double quotes
+    re_pattern_obj = re.compile(re_pattern_txt)
+    match = re_pattern_obj.match(to_check_txt)
