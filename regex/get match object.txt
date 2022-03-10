@@ -2,6 +2,7 @@ Get Match Object
 Note:
   -guidance @
     -https://docs.python.org/3/library/re.html#re.match
+    -https://docs.python.org/3/library/re.html#match-objects
 Main Success Scenario:
   1. See code below
     import re
