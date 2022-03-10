@@ -3,7 +3,7 @@ Note:
   -guidance @
     -https://docs.python.org/3/library/re.html#match-objects
     -https://docs.python.org/3/library/re.html#re.Match.group
-  -Each subgroup 
+  -Use ?P<name> syntax to name each subgroup in the match
 Pre-Condition:
   -match object must return true, instead of None, to be able to return a group
 Main Success Scenario:
@@ -21,3 +21,10 @@ Main Success Scenario:
     print(m.group(1))
     print(m.group(2))
     print(m.group(1,2))
+    print("Add sub group labels")
+    re_pattern_txt = '(?P<fst_nm>\w+) (?P<lst_nm>\w+)' # Use same pattern, but add sub group names
+    re_pattern_obj = re.compile(re_pattern_txt)
+    m = re_pattern_obj.match(to_check_txt)
+    print(m.group('fst_nm'))
+    print(m.group('lst_nm'))
+    print(m.group('fst_nm','lst_nm'))
