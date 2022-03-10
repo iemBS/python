@@ -1,0 +1,21 @@
+Get Positions of Group in Text Applied To
+Note:
+  -guidance @
+    -https://docs.python.org/3/library/re.html#re.Match.start
+Main Success Scenario:
+  1. See code below
+  
+    import re
+
+    to_check_txt = 'Clark Kent is Superman'
+    re_pattern_txt = '(\w+) (\w+)' # Matches any text that is bounded by double quotes
+    re_pattern_obj = re.compile(re_pattern_txt)
+    print(re_pattern_obj.groups)
+    m = re_pattern_obj.match(to_check_txt)
+    print(m.group(1))
+    print(m.start(1))
+    print(m.end(1))
+    print(m.group(2))
+    print(m.start(2))
+    print(m.end(2))
+  
