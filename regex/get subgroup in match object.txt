@@ -7,4 +7,17 @@ Note:
 Pre-Condition:
   -match object must return true, instead of None, to be able to return a group
 Main Success Scenario:
-  1. xxx:fill in 
+  1. See code below
+  
+    import re
+
+    to_check_txt = 'Clark Kent is Superman'
+    re_pattern_txt = '(\w+) (\w+)' # Matches any text that is bounded by double quotes
+    re_pattern_obj = re.compile(re_pattern_txt)
+    print(re_pattern_obj.groups)
+    m = re_pattern_obj.match(to_check_txt)
+    print(m.groups())
+    print(m.group(0))
+    print(m.group(1))
+    print(m.group(2))
+    print(m.group(1,2))
