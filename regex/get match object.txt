@@ -3,7 +3,9 @@ Note:
   -guidance @
     -https://docs.python.org/3/library/re.html#re.match
     -https://docs.python.org/3/library/re.html#match-objects
+    -https://docs.python.org/3/library/re.html#search-vs-match
   -Match objects always return True or None
+  -re.match() checks for a match only at the beginning of the string, while re.search() checks for a match anywhere in the string (this is what Perl does by default).
 Main Success Scenario:
   1. See code below
     import re
@@ -12,3 +14,19 @@ Main Success Scenario:
     re_pattern_txt = '(?i)^"(.+)"$' # Matches any text that is bounded by double quotes
     re_pattern_obj = re.compile(re_pattern_txt)
     match = re_pattern_obj.match(to_check_txt)
+Alternatives:
+  1a. Use search function instead of match function
+    1a1. See code below 
+      import re
+
+      to_check_txt = 'Clark Kent is Superman'
+      re_pattern_txt = '(\w+) (\w+)' # Matches any text that is bounded by double quotes
+      re_pattern_obj = re.compile(re_pattern_txt)
+      print(re_pattern_obj.groups)
+      m = re_pattern_obj.search(to_check_txt)
+      print(m.group(1))
+      print(m.start(1))
+      print(m.end(1))
+      print(m.group(2))
+      print(m.start(2))
+      print(m.end(2))
