@@ -3,6 +3,7 @@ Note:
   -guidance @
     -https://docs.python.org/3/library/re.html#re.match
     -https://docs.python.org/3/library/re.html#match-objects
+  -Match objects always return True or None
 Main Success Scenario:
   1. See code below
     import re
