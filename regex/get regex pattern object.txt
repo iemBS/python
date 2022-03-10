@@ -1,0 +1,6 @@
+Get Regex Pattern Object
+Note:
+  -guidance 
+    -https://docs.python.org/3/library/re.html#re.compile
+Main Success Scenario:
+  1. 
