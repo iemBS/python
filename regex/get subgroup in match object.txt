@@ -1,0 +1,10 @@
+Get SubGroup in Match Object
+Note:
+  -guidance @
+    -https://docs.python.org/3/library/re.html#match-objects
+    -https://docs.python.org/3/library/re.html#re.Match.group
+  -Each subgroup 
+Pre-Condition:
+  -match object must return true, instead of None, to be able to return a group
+Main Success Scenario:
+  1. xxx:fill in 
