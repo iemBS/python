@@ -1,0 +1,7 @@
+count = 102
+frequency = 100
+remainder = count % frequency
+print(count)
+print(remainder)
+if(remainder == 0):
+    print("In IF condition")
