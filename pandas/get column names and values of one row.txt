@@ -1,0 +1,19 @@
+Get Column Names and Values of One Row
+Note:
+  -Helpful if passed a dataframe row that you then need to loop through by column
+Main Success Scenario:
+  1. See code below 
+
+    import pandas as pd
+
+    # dictionary of lists
+    dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
+            'degree': ["MBA", "BCA", "M.Tech", "MBA"],
+            'score':[90, 40, 80, 98]}
+
+    # creating a dataframe from a dictionary
+    df = pd.DataFrame(dict)
+
+    # Get column name and column value separately
+    for col_name, col_value in df.iloc[0].iteritems():
+        print(str(col_name) + " - " + str(col_value))
