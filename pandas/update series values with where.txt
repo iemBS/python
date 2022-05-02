@@ -1,0 +1,21 @@
+Update Series Values with Where 
+Note:
+  -guidance @ 
+    -https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.where.html
+Main Success Scenario:
+  1. See code below
+  
+    import pandas as pd
+
+    s = pd.Series(range(5))
+    print("**series**")
+    print(s)
+
+    s_new = s.where(s > 1)
+    print("**series w filter**")
+    print(s_new)
+
+
+    s_new = s.where(s > 1, 10)
+    print("**series w filter and replace**")
+    print(s_new)
