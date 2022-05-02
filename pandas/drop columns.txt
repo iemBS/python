@@ -1,0 +1,23 @@
+Drop Columns
+Note:
+  -guidance @ 
+    -https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
+Main Success Scenario:
+  1. See code below
+
+    import pandas as pd
+
+    # dictionary of lists
+    dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
+            'degree': ["MBA", "BCA", "M.Tech", "MBA"],
+            'score':[90, 40, 80, 98]}
+
+    # creating a dataframe from a dictionary
+    df = pd.DataFrame(dict)
+
+    print(df)
+
+    # Drop columns
+    df = df.drop(columns=['degree', 'score'])
+
+    print(df)
