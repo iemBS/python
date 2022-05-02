@@ -1,0 +1,6 @@
+Apply Function on Every Dataframe Row
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/33518124/how-to-apply-a-function-on-every-row-on-a-dataframe
+Main Success Scenario:
+  1. xxx:fill in 
