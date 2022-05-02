@@ -1,0 +1,8 @@
+Convert Dataframe Row to Dataframe
+Note:
+  -guidance @ 
+    -https://stackoverflow.com/questions/46796943/converting-a-row-of-a-pandas-dataframe-into-a-dataframe-itself-instead-of-a-ser
+  -Needed if you want to:
+    -Remove columns from a dataframe row
+Main Success Scenario:
+  1. xxx:fill in 
