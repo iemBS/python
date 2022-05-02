@@ -1,0 +1,32 @@
+Drop Columns from Row
+Note:
+  -guidance @ 
+    -https://stackoverflow.com/questions/46796943/converting-a-row-of-a-pandas-dataframe-into-a-dataframe-itself-instead-of-a-ser
+Main Success Scenario:
+  1. See below 
+  
+    import pandas as pd
+
+    # dictionary of lists
+    dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
+            'degree': ["MBA", "BCA", "M.Tech", "MBA"],
+            'score':[90, 40, 80, 98]}
+
+    # creating a dataframe from a dictionary
+    df = pd.DataFrame(dict)
+
+    row = df.iloc[1]
+
+    print("full row")
+    print(row)
+
+    df_new = row.to_frame().T
+
+    print("full row as dataframe")
+    print(df_new)
+
+    # Drop columns
+    row = df_new.drop(columns=['degree', 'score'])
+
+    print("truncated row")
+    print(row)
