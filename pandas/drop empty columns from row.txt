@@ -1,0 +1,39 @@
+Drop Empty Columns from Row 
+Note:
+  -guidance @ 
+    -https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.dropna.html
+    -https://stackoverflow.com/questions/51794744/dropping-empty-columns-in-pandas-0-23
+  -This is meant to be applied at the row level, but can be applied to each row in a dataframe. 
+Pre-Conditions:
+  -Empty is defined as empty string or NaN
+Main Success Scenario:
+  1. See code below
+
+    import pandas as pd
+    import numpy as np
+
+    # dictionary of lists
+    dict = {'name':["aparna", "pankaj", "sudhir", "Geeku"],
+            'degree': ["MBA", "", "M.Tech", "MBA"],
+            'score':[90, 40, 80, 98]}
+
+    # creating a dataframe from a dictionary
+    print("**dataframe")
+    df = pd.DataFrame(dict)
+    print(df)
+
+    # Change empty string values to NA values 
+    df = df.where(df!="",np.nan)
+            # df[df==""]<-np.nan
+    print("**dataframe w empty string set to NaN")
+    print(df)
+
+    # Get one row and drop the empty columns 
+    print("**row")
+    row = df.iloc[1]
+    print(row)
+
+    # Drop empty columns
+    print("**drop columns from row")
+    row = row.dropna()
+    print(row)
