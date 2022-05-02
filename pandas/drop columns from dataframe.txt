@@ -1,4 +1,4 @@
-Drop Columns
+Drop Columns from Dataframe
 Note:
   -guidance @ 
     -https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html
