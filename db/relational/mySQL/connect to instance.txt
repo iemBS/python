@@ -1,0 +1,6 @@
+Connect to Instance
+Note:
+  -guidance @
+    -https://dev.mysql.com/doc/connector-python/en/connector-python-connectargs.html
+Main Success Scenario:
+  1. xxx:fill in 
