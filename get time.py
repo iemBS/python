@@ -25,3 +25,6 @@ offsetFromGMT = 0 # hrs between dance location and greenwuch, UK
 #time.strptime("30 Nov 00", "%d %b %y")  
 
 #tmField = 'ISODate("2017-02-08T05:00:00Z")'
+
+x = datetime.datetime.now()
+print(x)
