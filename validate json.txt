@@ -4,7 +4,20 @@ Note:
     -https://stackoverflow.com/questions/54491156/validate-json-data-using-python
 Main Success Scenario:
   1. Check if JSON using validate JSON format
-    xxx:fill in 
+    import json
+
+    ini_string = "{'akshat' : 1, 'nikhil' : 2}"
+
+    # printing initial ini_string
+    print ("initial string", ini_string)
+
+    # checking for string
+    try:
+        json_object = json.loads(ini_string)
+        print ("Is valid json? true")
+    except ValueError as e:
+        print ("Is valid json? false")
+        
   2. End
 Alternatives:
   1a. Check JSON against an expected JSON schema
