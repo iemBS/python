@@ -1,0 +1,12 @@
+Validate JSON
+Note:
+  -guidance @
+    -https://stackoverflow.com/questions/54491156/validate-json-data-using-python
+Main Success Scenario:
+  1. Check if JSON using validate JSON format
+    xxx:fill in 
+  2. End
+Alternatives:
+  1a. Check JSON against an expected JSON schema
+    1a1. xxx:fill in 
+    1a2. go to step 2
