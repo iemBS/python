@@ -2,6 +2,7 @@ Validate JSON
 Note:
   -guidance @
     -https://stackoverflow.com/questions/54491156/validate-json-data-using-python
+    -https://www.geeksforgeeks.org/python-check-whether-a-string-is-valid-json-or-not/
 Main Success Scenario:
   1. Check if JSON using validate JSON format
     import json
