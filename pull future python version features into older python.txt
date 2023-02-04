@@ -1,0 +1,6 @@
+Pull Future Python version Features into Older Python
+Note:
+  -guidance @ 
+    -https://stackoverflow.com/questions/32032697/why-does-using-from-future-import-print-function-breaks-python2-style-print
+Main Success Scenario:
+  1. from __future__ import print_function
