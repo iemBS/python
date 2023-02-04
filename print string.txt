@@ -1,0 +1,18 @@
+Print String
+Note:
+  -guidance @
+    -https://www.geeksforgeeks.org/python-output-formatting/
+Main Success Scenario:
+  1. Placeholders with values at end
+    print('I love {} for "{}!"'.format('Geeks', 'Geeks'))
+  2. End
+Alternatives:
+  1a. Placeholders with values at end and with position control in placeholders
+    1a1. print('{1} and {0}'.format('Geeks', 'Portal'))
+    1a2. go to step 2
+  1b. Dictionary type end value
+    1b1. see code below 
+      tab = {'geeks': 4127, 'for': 4098, 'geek': 8637678}
+      
+      print('Geeks: {0[geeks]:d}; For: {0[for]:d}; '
+        'Geeks: {0[geek]:d}'.format(tab))
