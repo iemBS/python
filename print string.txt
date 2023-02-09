@@ -4,7 +4,7 @@ Note:
     -https://www.geeksforgeeks.org/python-output-formatting/
 Main Success Scenario:
   1. Placeholders with values at end
-    print('I love {} for "{}!"'.format('Geeks', 'Geeks'))
+    print('I love {} for "{}!"'.format('Geeks', 'Cheese'))
   2. End
 Alternatives:
   1a. Placeholders with values at end and with position control in placeholders
@@ -16,3 +16,8 @@ Alternatives:
       
       print('Geeks: {0[geeks]:d}; For: {0[for]:d}; '
         'Geeks: {0[geek]:d}'.format(tab))
+  1c. Use f-string 
+    1c1. see code below
+    var1 = 'Geeks'
+    var2 = 'Cheese'
+    print(f'I love {var1} for "{var2}!"')
