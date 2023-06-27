@@ -1,0 +1,6 @@
+Create List with All Letters
+Note:
+  -guidance @
+    -https://www.javatpoint.com/alphabet-in-python
+Main Success Scenario:
+  1. xxx:fill in 
