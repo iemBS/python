@@ -1,0 +1,6 @@
+Replace Characters in File
+Note
+  -guidance @
+    -https://www.geeksforgeeks.org/how-to-search-and-replace-text-in-a-file-in-python/
+Main Success Scenario:
+  1. see code below 
