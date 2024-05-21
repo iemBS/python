@@ -1,0 +1,7 @@
+Config py launcher
+Main Success Scenario:
+  1. Find the py.ini file at xxx
+  2. set default python version used by py launcher to 3.12
+     [defaults]
+     python=3.12
+  3. Save py.ini file.
