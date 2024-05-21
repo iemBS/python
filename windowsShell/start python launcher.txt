@@ -1,4 +1,7 @@
 Start Python Launcher
+Note:
+  -ref @
+    -https://www.infoworld.com/article/3617292/how-to-use-pythons-py-launcher-for-windows.html
 Main Success Scenario:
   1. Access Windows OS
   2. Type "py" in a command line prompt and press enter
