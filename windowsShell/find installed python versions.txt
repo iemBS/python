@@ -1,0 +1,8 @@
+Find Installed Python Versions
+Main Success Scenario:
+  1. python --version
+  2. See all installed python versions
+Alternatives:
+  1a. Not finding all installed python versions
+    1a1. py --list
+    1a2. go to step 2
