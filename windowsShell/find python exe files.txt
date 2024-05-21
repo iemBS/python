@@ -1,0 +1,5 @@
+Find Python exe files
+Main Success Scenario:
+  1. where.exe python
+  2. where.exe py
+  3. End
