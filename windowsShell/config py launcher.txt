@@ -1,7 +1,11 @@
 Config py launcher
 Main Success Scenario:
-  1. Find the py.ini file at xxx
-  2. set default python version used by py launcher to 3.12
+  1. Windows key + R
+  2. type "%localappdata%"
+  3. Add "py.ini" file if not already there
+  4. In py.ini file, set default python version used by py launcher to 3.11
      [defaults]
-     python=3.12
-  3. Save py.ini file.
+     python=3.11
+  5. Save py.ini file.
+  6. Run py --version
+  7. See "Python 3.11.5" returned
