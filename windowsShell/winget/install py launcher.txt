@@ -1,0 +1,4 @@
+Install py launcher
+Main Success Scenario:
+  1. winget install python.launcher
+  2. end
