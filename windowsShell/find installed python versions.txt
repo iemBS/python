@@ -6,6 +6,9 @@ Alternatives:
   1a. Not finding all installed python versions
     1a1. py -0p
     1a2. go to step 2
-  1b. Not finding all installed python versions
+  1b. Not finding all installed python versions using a 2nd way
     1b1. py --version
     1b2. go to step 2
+  1c. Not finding all installed python versions using a 3rd way
+    1c1. where.exe python
+    1c2. go to step 2
