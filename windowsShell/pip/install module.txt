@@ -1,0 +1,20 @@
+Install Module
+Note:
+  -Guidance @ 
+    -https://stackoverflow.com/questions/42988977/what-is-the-purpose-of-pip-install-user
+Main Success Scenario:
+  1. Installing via Python Shell
+    pip install --user MODULE_NAME_TO_INSTALL
+  2. End 
+Alternatives:
+  1a. Installing to virtual environment 
+    1a1. pip install MODULE_NAME_TO_INSTALL
+    1a2. Go to step 2
+  1b. Installing via Windows Command Shell with py launcher
+    1b1. py pip install --user MODULE_NAME_TO_INSTALL
+    1b2. Go to step 2
+  1c. Installing via Windows Command Shell with python cmd
+    1c1. python -m pip install MODULE_NAME_TO_INSTALL
+    1c2. Go to step 2
+    
+ 
