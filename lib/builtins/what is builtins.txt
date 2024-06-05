@@ -1,0 +1,3 @@
+https://docs.python.org/3/library/builtins.html
+https://stackoverflow.com/questions/53895005/can-pythons-standard-librarys-written-in-python-modules-be-used-without-import
+https://www.geeksforgeeks.org/built-in-objects-in-python-builtins/
