@@ -10,6 +10,7 @@ Note:
 Main Success Scenario:
   1. Import module
     import myModule
+  2. End
 Alternatives:
   1a. Import class
     1a1. use "from aModule import aClass" notation
@@ -39,7 +40,18 @@ Alternatives:
         )
    1f. Import only class attribute 
      1f1. from math import pi 
+   1g. Order of imports impacts logging config
+     1g1. "Config Logging lib before Reimporting lib"
+     1g2. go to step 2
 
+
+
+Config Logging lib before Reimporting lib
+Note:
+  -ref @
+    -https://stackoverflow.com/questions/20240464/python-logging-file-is-not-working-when-using-logging-basicconfig
+Main Success Scenario:
+  1. xxx:fill in 
 
 
 
