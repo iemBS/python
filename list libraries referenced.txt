@@ -5,14 +5,24 @@ Note:
     -https://www.tutorialspoint.com/How-to-find-which-Python-modules-are-being-imported-from-a-package
   -Shows if the same library is imported from two or more locations
   -Shows if more than one version of a library is used
+  -Libraries explicity and implicitly imported, can have their explict imports removed
 Main Success Scenario:
   1. Show all libraries imported by app
   2. xxx:fill in 
   3. End
 Alternatives:
-  1a. Show all libraries imported and used by app
+  1a. Show all libraries explicitly imported by app 
     1a1. xxx:fill in 
     1a2. go to step 3. 
-  1b. Show all libraries imported but not used by app
+  1b. Show all libraries implicitly imported by app
     1b1. xxx:fill in 
     1b2. go to step 3
+  1c. Show all libraries explicity and implicitly imported by app
+    1c1. xxx:fill in 
+    1c2. go to step 3
+  1d. Show all libraries imported but not used by app
+    1d1. xxx:fill in 
+    1d2. go to step 3
+  1e. Show all libraries explicitly imported and not used by app
+    1e1. xxx:fill in 
+    1e2. go to step 3
