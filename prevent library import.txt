@@ -1,0 +1,10 @@
+Prevent Library Import
+Note:
+  -ref 
+    -https://stackoverflow.com/questions/44445593/how-to-ignore-python-modules-during-import
+  -Library import may need to be prevented to ...
+    -reduce the size of the python app
+    -to make the run of the app, which includes a load of libraries each time, to run faster
+    -prevent confusion with the same library being loaded from more than one import
+Main Success Scenario:
+  1. xxx:fill in 
