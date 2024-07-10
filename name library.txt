@@ -7,7 +7,9 @@ Main Success Scenario:
   1. Short 
   2. all-lowercase 
   3. try to avoid underscores
-  4. End 
+  4. Is discernable from other libraries
+  5. Is intuitive enough to trigger a reminder of what is does
+  6. End 
   
   
   
