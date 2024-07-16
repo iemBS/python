@@ -1,0 +1,48 @@
+Group Code
+Note:
+  -ref
+    -https://realpython.com/lessons/scripts-modules-packages-and-libraries/
+    -https://realpython.com/courses/python-modules-packages/
+Main Success Scenario:
+  1. Group code into a script
+  2. "Create Script"
+  3. End
+Alternatives:
+  1a. Group code into a module
+    1a1. "Create Module"
+    1a2. go to step 3
+  1b. Group code into a package
+    1b1. "Create Module"
+    1b2. go to step 3
+  1c. Group code into a library
+    1c1. "Create Library"
+    1c2. go to step 3
+
+
+
+Create Script
+Note:
+  -A script is a Python file that’s intended to be run directly. When you run it, it should do something. This means that scripts will often contain code written outside the scope of any classes or functions. 
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Module
+Note:
+  -A module is a Python file that’s intended to be imported into scripts or other modules. It often defines members like classes, functions, and variables intended to be used in other files that import it. 
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Package
+Note:
+  -A package is a collection of related modules that work together to provide certain functionality. These modules are contained within a folder and can be imported just like any other modules. This folder will often contain a special __init__ file that tells Python it’s a package, potentially containing more modules nested within subfolders
+Main Success Scenario:
+  1. xxx:fill in 
+
+
+Create Library
+Note:
+  -A library is an umbrella term that loosely means “a bundle of code.” These can have tens or even hundreds of individual modules that can provide a wide range of functionality. Matplotlib is a plotting library. The Python Standard Library contains hundreds of modules for performing common tasks, like sending emails or reading JSON data. What’s special about the Standard Library is that it comes bundled with your installation of Python, so you can use its modules without having to download them from anywhere.
+Main Success Scenario:
+  1. xxx:fill in 
